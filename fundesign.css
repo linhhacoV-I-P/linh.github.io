@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(214, 226, 253);
+    
+    border: 2px dotted black;
+    padding: 10px 10px 10px 10px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+#BuBu {
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    animation: coolanimation 5s infinite;
+}
+
+@keyframes coolanimation {
+    0% {top: 0px; left: 0px;}
+    20% {top: 0px; left: 1000px;}
+    40% {top: 1000px; left: 1000px;}
+    80% {top: 1000px; left: 0px;}
+    100% {top: 0px; left: 0px;}}
+
+* {
+    margin: 0px;
+}
+
+
+/* 
+p {
+    background: url("71JQDdwyFNL._AC_SL1500_.jpg");
+    background-color: #cccccc;
+    height: 1500px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+tbody td{
+    float: center;
+}
+#picture{
+    background: url("Untitled-5 - Copy.png");
+    background-color: #cccccc;
+    height: 3000px;
+   
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#container {
+    width: 1034px;
+    height: 1882px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
